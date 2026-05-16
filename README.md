@@ -6,10 +6,7 @@
 
 OJT 적용 계획: 실제 현장의 조업 데이터(온도, 성분 등)를 이 파이프라인에 대입하여 최적 조업 가이드라인 도출 예정.
 
-# created by virtualenv automatically
-*.venv/
-*.idea/
-__pycache__/
-*.csv
-*.zip
-*.ipynb_checkpoints/
+Description:
+    ANOVA 분석을 통해 $P < 0.05$인 유의미한 공정 인자 10종 선별.
+    SHAP Summary Plot을 통해 강종(A300) 및 설비 길이와 결함 간의 정(+)의 상관관계 확인.
+    단순 상관분석으로 알 수 없는 인자별 영향력의 방향성과 강도를 수치화함.
